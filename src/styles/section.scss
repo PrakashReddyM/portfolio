@@ -1,0 +1,45 @@
+@import "colors";
+
+
+.section{
+    padding: 10rem;
+    padding-bottom: 2rem;
+    // padding-top: 20rem;
+    > div{
+        margin: auto;
+        max-width: 60rem;
+        height: 120vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        
+    }
+    h3{
+        width: 100%;
+        font: 300 54px $heading;
+
+    }
+    p{
+        font: 19px $text;
+        width: 700px;
+        line-height: 1.9;
+        margin-top:50px ;
+    }
+    button{
+        font:600 14px $text;
+        padding: 0.9rem 1.25rem;
+        border: none;
+        transform-origin: bottom;
+        transition: transform 0.5s;
+        letter-spacing: 2px;
+        margin-top:30px ;
+        border-radius: 7px;
+
+        &:hover{
+            transform: skewX(-10deg);
+        }
+    }
+}
